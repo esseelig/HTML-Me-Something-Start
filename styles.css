@@ -1,1 +1,40 @@
-/* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#mainHeading {
+    color:red;
+    text-align: center;
+    justify-content: center;
+}
+
+#testP {
+    color:green;
+}
+
+.readability {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+figure {
+    display: flexbox;
+    object-fit: cover;
+}
+
+img {
+    max-width: 500px;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+h3 {
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
